@@ -1,4 +1,4 @@
-#Get the Popular Times for Businesses from Google Maps
+# Get the Popular Times for Businesses from Google Maps
 
 I've done a freelance job in December 2016 on Upwork, and I was a new Python Developer after working with PHP for 10 years, and Java for 3 years before that. My first Python project ever was to get the comments of a Disqus comments section and put all the comments in my Kindle.
 
