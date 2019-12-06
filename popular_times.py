@@ -38,29 +38,6 @@ while 1:
 	long_response_value = dict_of_google_response['d'].lstrip(")]}\'\n")
 	j_decoded_list = json.loads(long_response_value)
 	l = j_decoded_list
-	# with open('j_decoded_list.txt','r') as file:
-	# 	l = eval(file.read())
-	
-	# def nl2br(string, is_xhtml= True ):
-	#     if is_xhtml:
-	#         return string.replace('\n','<br />\n')
-	#     else :
-	#         return string.replace('\n','<br>\n')
-	# IT IS THIS CODE THAT SHOWS YOU THE INDEXES OF ALL THE DATA FIELDS
-	# level = 0
-	# path = []
-	# def traverse(l, dict_of_lengths):
-	# 	global level
-	# 	dict_of_lengths = {i:len(l[i]) for i in range(len(l)) if isinstance(l[i],list)}
-	# 	#{0: 6, 1: 4, 2: 2, 16: 2, 9: 1, 10: 1, 27: 1}
-	# 	for list_key,total_length in dict_of_lengths.items():
-	# 		level += 1
-	# 		path.append(list_key)
-	# 		print(str(path) + ' ' + str(l[list_key]))
-	# 		traverse(l[list_key],dict_of_lengths)
-	# 		path.pop()
-	# 		level -= 1
-	# traverse(l, {i:len(l[i]) for i in range(len(l)) if isinstance(l[i],list)})
 	file = open("results.txt","a")
 	number_of_results = len(l[0][1])
 	for result_count in range(number_of_results):
