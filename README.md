@@ -1,4 +1,4 @@
 #Get the Popular Times for Businesses from Google Maps
 
 
-![](popular_times.jpg)
+![Popular Times](popular_times.jpg)
